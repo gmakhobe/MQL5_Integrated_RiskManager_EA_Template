@@ -11,11 +11,6 @@ int OnInit()
   {
 //---
 
-  if (!HandlerMarketStructureIdentifier1 && HandlerMarketStructureIdentifier2)
-  {
-    return INIT_PARAMETERS_INCORRECT;
-  }
-   
 //---
    return(INIT_SUCCEEDED);
   }
